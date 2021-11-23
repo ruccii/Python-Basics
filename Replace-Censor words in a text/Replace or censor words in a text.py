@@ -1,10 +1,10 @@
-# with open("sample.txt") as a:           #read file
-#     content = a.read()
+ with open("sample.txt") as a:           #read file
+     content = a.read()
 
-# content = content.replace('donkey', '#%$^%&')  #perform task
+ content = content.replace('donkey', '#%$^%&')  #perform task
 
-# with open(f"sample.txt", "w") as a:
-#     a.write(content)
+ with open(f"sample.txt", "w") as a:
+     a.write(content)                    #write
 
 #MULTIPLE WORDS REPLACE
 
